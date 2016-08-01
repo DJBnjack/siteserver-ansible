@@ -1,0 +1,5 @@
+- name: Install Docker on Servers
+  hosts: all
+  remote_user: root
+  roles:
+    - angstwad.docker_ubuntu
