@@ -1,10 +1,13 @@
 # siteserver-ansible
 
-First install angstwad.docker_ubuntu:
+First install everything:
 ```
-ansible-galaxy install angstwad.docker_ubuntu
+sudo sh ./install-reqs.sh
 ```
-From: https://www.ansible.com/2014/02/12/installing-and-building-docker-with-ansible
+Then fix ansible permissions (why??)
+```
+sudo chown -R johannes.johannes /home/johannes/.ansible
+```
 
 Then execute this playbook:
 ```
