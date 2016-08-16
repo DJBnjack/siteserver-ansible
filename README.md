@@ -10,3 +10,12 @@ Then execute this playbook:
 ```
 ansible-playbook install_docker.yml -i siteserver-hosts
 ```
+
+# SSH known-host checking
+
+Add the following lines to the end of the SSH configuration file.
+```
+Host 10.0.0.*
+   StrictHostKeyChecking no
+   UserKnownHostsFile=/dev/null
+```
