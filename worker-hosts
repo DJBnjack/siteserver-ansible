@@ -1,2 +1,3 @@
-10.0.0.[5:16] ansible_user=johannes ansible_become=true
-
+10.0.0.[5:8] ansible_user=johannes ansible_become=true
+10.0.0.[10:12] ansible_user=johannes ansible_become=true
+10.0.0.[14:16] ansible_user=johannes ansible_become=true
