@@ -18,3 +18,5 @@ sudo chown -R johannes.johannes /home/johannes/.ansible
 # Add localnet (10.0.0.*) to known hosts
 sudo ./known-host.sh
 
+# Fix git creds
+./update-git.sh
