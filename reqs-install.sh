@@ -16,5 +16,5 @@ sudo ansible-galaxy install angstwad.docker_ubuntu
 sudo chown -R johannes.johannes /home/johannes/.ansible
 
 # Add localnet (10.0.0.*) to known hosts
-sudo known-host.sh
+sudo ./known-host.sh
 
