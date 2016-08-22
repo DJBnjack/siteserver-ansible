@@ -1,4 +1,6 @@
 node01 ansible_host=10.0.0.4 ansible_user=johannes ansible_become=true
 node02 ansible_host=10.0.0.5 ansible_user=johannes ansible_become=true
-labproxy ansible_host=10.0.0.6 ansible_connection=local ansible_user=johannes ansible_become=true
-
+node03 ansible_host=10.0.0.7 ansible_user=johannes ansible_become=true
+labproxy ansible_host=10.0.0.6 ansible_user=johannes ansible_become=true
+labbuilder ansible_host=10.0.0.8 ansible_connection=local ansible_user=johannes ansible_become=true
+labmanager ansible_host=10.0.0.9 ansible_user=johannes ansible_become=true
