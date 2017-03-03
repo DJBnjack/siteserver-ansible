@@ -1,3 +1,1 @@
 localhost ansible_connection=local ansible_become=true
-10.0.0.5 ansible_user=johannes ansible_become=true
-10.0.0.[7:10] ansible_user=johannes ansible_become=true
